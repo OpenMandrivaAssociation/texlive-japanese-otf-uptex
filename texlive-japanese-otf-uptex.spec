@@ -1,12 +1,12 @@
-# revision 25462
+# revision 26114
 # category Package
 # catalog-ctan /language/japanese/japanese-otf-uptex
-# catalog-date 2012-02-21 16:57:07 +0100
+# catalog-date 2012-04-11 09:22:31 +0200
 # catalog-license other-free
-# catalog-version 0.09
+# catalog-version 0.09p1
 Name:		texlive-japanese-otf-uptex
 Epoch:		1
-Version:	0.09
+Version:	0.09p1
 Release:	1
 Summary:	Support for Japanese OTF files in upLaTeX
 Group:		Publishing
@@ -325,6 +325,32 @@ later).
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utftmru-v.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utftmrz-h.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utftmrz-v.ovp
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpmgothr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpmgothr-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminl-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminl-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpminr-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgothb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgothr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlgothr-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlmgothr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlmgothr-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminl-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminl-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminr-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothr-h.tfm
@@ -665,6 +691,32 @@ later).
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utftmru-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utftmrz-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utftmrz-v.tfm
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpmgothr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpmgothr-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminl-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminl-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpminr-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgothb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgotheb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgothr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlgothr-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlmgothr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlmgothr-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminl-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminl-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminr-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothr-h.vf
@@ -1005,10 +1057,13 @@ later).
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/uotf-sp-utf8.tex
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/uotftest-utf8.tex
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/uotftest.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/upbrsgtest.tex
 #- source
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/basepl/ubase-h.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/basepl/ubase-v.pl
-%doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.09.patch
+%doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/basepl/ubrsg-h.pl
+%doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/basepl/ubrsg-v.pl
+%doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/patch/otfbeta_uptex-0.10.patch
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/script/MakeSPList.pm
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/script/mktfm_sp.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/script/mkutf32list.pl
@@ -1018,6 +1073,7 @@ later).
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/script/sp_list_k.txt
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/script/sp_list_t.txt
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/umakeotf
+%doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/umakeotf_brsg
 %doc %{_texmfdistdir}/source/fonts/japanese-otf-uptex/umkjvf
 
 #-----------------------------------------------------------------------
