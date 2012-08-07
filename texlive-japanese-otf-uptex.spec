@@ -1,12 +1,12 @@
-# revision 26114
+# revision 26985
 # category Package
 # catalog-ctan /language/japanese/japanese-otf-uptex
-# catalog-date 2012-04-11 09:22:31 +0200
+# catalog-date 2012-07-10 11:04:52 +0200
 # catalog-license other-free
-# catalog-version 0.09p1
+# catalog-version 0.11
 Name:		texlive-japanese-otf-uptex
 Epoch:		1
-Version:	0.09p1
+Version:	0.11
 Release:	1
 Summary:	Support for Japanese OTF files in upLaTeX
 Group:		Publishing
