@@ -1085,3 +1085,23 @@ later).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.11-1
++ Revision: 812307
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.09p1-1
++ Revision: 804857
+- Update to latest release.
+
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.09-1
++ Revision: 779565
+- Update to latest release.
+
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120202-1
++ Revision: 772085
+- texlive-japanese-otf-uptex
+- texlive-japanese-otf-uptex
+
