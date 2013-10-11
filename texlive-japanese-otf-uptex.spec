@@ -1,12 +1,12 @@
-# revision 26985
+# revision 29931
 # category Package
 # catalog-ctan /language/japanese/japanese-otf-uptex
-# catalog-date 2012-07-10 11:04:52 +0200
+# catalog-date 2013-04-14 10:19:50 +0200
 # catalog-license other-free
-# catalog-version 0.11
+# catalog-version 0.11.1
 Name:		texlive-japanese-otf-uptex
 Epoch:		1
-Version:	0.11
+Version:	0.11.1
 Release:	1
 Summary:	Support for Japanese OTF files in upLaTeX
 Group:		Publishing
@@ -36,7 +36,6 @@ later).
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf-uptex/otf-up-noEmbed.map
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfcgrk-h.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfcgrk-v.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfcgrl-h.ovp
@@ -109,6 +108,34 @@ later).
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgbv-v.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgbz-h.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgbz-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgej-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgej-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgek-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgek-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgel-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgel-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgem-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgem-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgen-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgen-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeo-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeo-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgep-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgep-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeq-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeq-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjger-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjger-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjges-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjges-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjget-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjget-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeu-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgeu-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgev-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgev-v.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgez-h.ovp
+%{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgez-v.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgrj-h.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgrj-v.ovp
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utfjgrk-h.ovp
@@ -327,6 +354,8 @@ later).
 %{_texmfdistdir}/fonts/ovp/public/japanese-otf-uptex/utftmrz-v.ovp
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgotheb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgexpmgothr-h.tfm
@@ -353,6 +382,8 @@ later).
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upbrsgnmlminr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgotheb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upexpmgothr-h.tfm
@@ -393,6 +424,8 @@ later).
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/upnmlminr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygothb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygotheb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubygothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/uprubymgothr-h.tfm
@@ -475,6 +508,34 @@ later).
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgbv-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgbz-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgbz-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgej-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgej-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgek-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgek-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgel-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgel-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgem-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgem-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgen-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgen-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeo-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeo-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgep-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgep-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeq-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeq-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjger-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjger-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjges-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjges-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjget-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjget-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeu-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgeu-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgev-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgev-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgez-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgez-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgrj-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgrj-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utfjgrk-h.tfm
@@ -693,6 +754,8 @@ later).
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf-uptex/utftmrz-v.tfm
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgotheb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgexpmgothr-h.vf
@@ -719,6 +782,8 @@ later).
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upbrsgnmlminr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgotheb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upexpmgothr-h.vf
@@ -745,6 +810,8 @@ later).
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/upnmlminr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygothb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygotheb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubygothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/uprubymgothr-h.vf
@@ -827,6 +894,34 @@ later).
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgbv-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgbz-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgbz-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgej-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgej-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgek-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgek-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgel-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgel-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgem-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgem-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgen-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgen-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeo-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeo-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgep-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgep-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeq-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeq-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjger-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjger-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjges-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjges-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjget-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjget-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeu-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgeu-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgev-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgev-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgez-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgez-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgrj-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgrj-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf-uptex/utfjgrk-h.vf
@@ -1048,6 +1143,7 @@ later).
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/00otf-uptex.txt
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/COPYRIGHT
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/README
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/otf-script-gteb.diff
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/Makefile
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/sp_cns_utf.tex
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf-uptex/test/uplatex/sp_gb_utf.tex
@@ -1085,23 +1181,3 @@ later).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.11-1
-+ Revision: 812307
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.09p1-1
-+ Revision: 804857
-- Update to latest release.
-
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:0.09-1
-+ Revision: 779565
-- Update to latest release.
-
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120202-1
-+ Revision: 772085
-- texlive-japanese-otf-uptex
-- texlive-japanese-otf-uptex
-
