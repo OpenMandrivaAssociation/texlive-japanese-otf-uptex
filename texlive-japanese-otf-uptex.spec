@@ -1,3 +1,5 @@
+%global __requires_exclude perl\\((script::MakeSPList)\\)
+
 Name:		texlive-japanese-otf-uptex
 Epoch:		1
 Version:	0.18
