@@ -3,7 +3,7 @@
 Name:		texlive-japanese-otf-uptex
 Epoch:		1
 Version:	0.18
-Release:	3
+Release:	4
 Summary:	Support for Japanese OTF files in upLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf-uptex
