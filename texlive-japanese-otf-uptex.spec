@@ -6,7 +6,7 @@ Version:	0.18
 Release:	4
 Summary:	Support for Japanese OTF files in upLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf-uptex
+URL:		https://www.ctan.org/tex-archive/language/japanese/japanese-otf-uptex
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf-uptex.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf-uptex.doc.tar.xz
